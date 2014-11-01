@@ -45,7 +45,7 @@ A famous equation is $e = mc^2$, but this one is
 famous too:
 
 ~ Equation  {#eq-gaussian}
-\int_{-\infty}^\iinfty e^{-a x^2} d x = \sqrt{\frac{\pi}{a}}
+\int_{-\infty}^\infty e^{-a x^2} d x = \sqrt{\frac{\pi}{a}}
 ~
 ~ End Framed
 
