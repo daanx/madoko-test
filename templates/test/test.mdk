@@ -6,12 +6,15 @@ Author        : You
 
 # Madoko
 
+![icon-github]
 Madoko is a fast markdown processor for writing professional articles
 with a focus on simplicity and plain text readability. It is especially
 well suited for high quality scholarly- and industrial documents for
 the web and print. It integrates closely with LaTeX and has great
 support for things like in-document references, inline code,
 bibliographies, and mathematics.
+
+[icon-github]: images/icon-github.png "icon-github" { width=auto }
 
 Madoko connects to your (personal) Onedrive or Dropbox account and
 automatically synchronizes all changes in the cloud. This way, your
