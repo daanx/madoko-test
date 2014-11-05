@@ -6,9 +6,9 @@ Author        : You
 
 # Madoko
 
-Test 4.
+Test 5
 
-Test 1.
+[INCLUDE=test1]
 
 ![icon-github]
 Madoko is a fast markdown processor for writing professional articles
