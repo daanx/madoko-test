@@ -1,4 +1,4 @@
 madoko-test
 ===========
 
-Madoko test repository
+Madoko test repository.
