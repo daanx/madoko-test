@@ -1,0 +1,60 @@
+[INCLUDE=present]
+Title         : Welcome to Madoko
+Heading Base  : 2
+Author        : You
+Reveal Theme  : solarized
+[INCLUDE=arrows]
+
+~ TexRaw
+\newcommand{\inlineFragment}[1]{\only<+->{#1}}
+\cssClassRuleCmd{inlinefragment}{\only<+->}
+~
+
+# test 1
+
+* one
+* two
+{.fragmented}
+
+# Test 2
+
+* {.fragment} 
+  one
+* {.fragment} 
+  two
+
+# First
+
+My [sentence here]{.fragment}.
+
+* one
+* two
+* tree
+{.fragmented}
+
+A test
+{.fragment}
+
+# Madoko Arrows example.
+
+* [Coriolis acceleration]{#n1 .node}
+
+  $\vec{a}_p = \vec{a}_o+\frac{{}^bd^2}{dt^2}\vec{r} + \strut$
+  [$2\vec{\omega}_{ib}\times\frac{{}^bd}{dt}\vec{r}$]{#t1 .node background-color=#CCCCFF padding=5pt}
+  $+$
+  [$\vec{\alpha}_{ib}\times\vec{r}$]{#t2 .node}
+  $+$
+  [$\vec{\omega}_{ib}\times(\vec{\omega}_{ib}\times\vec{r})$]{#t3 .node background-color=#CCFFCC padding=5pt }
+
+* [Transversal acceleration]{#n2 .node}
+* [Centripetal acceleration]{#n3 .node}
+
+[right(n1)->top(t1)]{.arrow}
+[right(n2)<->bottom(t2)_[lab~1~]{color=red}]{.arrow .fragment}
+[right(n3)<-bottom(t3)^$x^2$]{.arrow .fragment}
+
+# Nice
+
+# Test Final
+
+Test.
